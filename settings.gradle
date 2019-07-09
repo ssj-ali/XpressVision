@@ -1,0 +1,2 @@
+include ':app', ':tensorflow-android-1.13.0-rc2'
+include ':openCVLibrary342'
