@@ -1,5 +1,5 @@
 # XpressVision
-Android App that detects human face and recognize his/her expressions in run-time. Link to the apk:https://drive.google.com/open?id=1qoNL4ldHHnPExTRRGuHpTa9o9mL6QD_2
+Android App that detects human face and recognize his/her expressions in run-time. Link to the apk:https://drive.google.com/open?id=1-E-zWAxXNCjuo-5poG91_DZW71znX4jV
 
 ## Steps involved in this creation of app:
 ### A) Prerequiste: Traing and saving the model.
