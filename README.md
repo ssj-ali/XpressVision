@@ -29,8 +29,8 @@ The code is neat and nicely commented when needed.
 
 
 Screenshots
-![Surprised Woman](https://drive.google.com/open?id=1VHBY3Sv4RfdN5y-TJKeIcyq2PzuWlrsk)
-![Neutal Woman](https://drive.google.com/open?id=1VLiIdq5tK0gjU_FnlAY5gBzIcz6roJpe)
-![Angry Man](https://drive.google.com/open?id=1VNNb_G5OEAYRX7YD6BV2znHPp7gNav-I)
-![Sad Child](https://drive.google.com/open?id=1VSVm8Y7JWcmM0QeCqbrAKwTtJ9DTmENR)
-![Happy Man](https://drive.google.com/open?id=1Vk1d8Uum99KdOCFuLIyHiXG1-haYr9Ed)
+![Surprised Woman](https://cdn1.imggmi.com/uploads/2019/9/4/d476a02d8e2c4ad6f4152d994891fde0-full.png)
+![Neutal Woman](https://cdn1.imggmi.com/uploads/2019/9/4/2df1c2985864fb6f5c766cf9ea7d0253-full.png)
+![Angry Man](https://cdn1.imggmi.com/uploads/2019/9/4/1169f0eb151939397a8efb1751d930ec-full.png)
+![Sad Child](https://cdn1.imggmi.com/uploads/2019/9/4/2de2af8e4eb27b03edbf7e94d2747cee-full.png)
+![Happy Man](https://cdn1.imggmi.com/uploads/2019/9/4/8023a01dc674d0419fed7f148ba2e4b3-full.png)
