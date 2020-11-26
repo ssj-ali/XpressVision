@@ -6,6 +6,30 @@ Android App that detects human face and recognize his/her expressions in run-tim
 
 1) Train a keras CNN model on the famous kaggle fer2013 dataset. You can get the dataset from here:https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data .The data consists of 48x48 pixel grayscale images of faces. It consist of around 28K training images. You can train your model using python on your laptop/server. Note: You can also use tensorflow model (more accurate) instead of keras but keras is high api framework and can also be built over tensorflow.
 
+```
+def build_model(x, keep_prob, y_, output_node_name):
+    x_image = tf.reshape(x, [-1, 48, 48, 1])
+    #48*48*1
+    conv1 = tf.layers.conv2d(x_image, 64, 3, 1, 'same', activation=tf.nn.relu)
+    #48*48*64
+    pool1 = tf.layers.max_pooling2d(conv1, 2, 2, 'same')
+    #24*24*64
+    conv2 = tf.layers.conv2d(pool1, 128, 3, 1, 'same', activation=tf.nn.relu)
+    #24*24*128
+    pool2 = tf.layers.max_pooling2d(conv2, 2, 2, 'same')
+    #12*12*128
+    conv3 = tf.layers.conv2d(pool2, 256, 3, 1, 'same', activation=tf.nn.relu)
+    #12*12*256
+    pool3 = tf.layers.max_pooling2d(conv3, 2, 2, 'same')
+    #6*6*256
+    flatten = tf.reshape(pool3, [-1, 6*6*256])
+    fc = tf.layers.dense(flatten, 1536, activation=tf.nn.relu)
+    dropout = tf.nn.dropout(fc, keep_prob)
+    logits = tf.layers.dense(dropout, 7)
+    outputs = tf.nn.softmax(logits, name=output_node_name)
+    
+```
+
 2) Next important step is converting and saving your model into a single protobuf (.pb) file. This can be done by using tensorflow as a backend. After that optimise your model for an android device. Tutorial for this step: https://www.youtube.com/watch?v=kFWKdLOxykE
 
 ### B) Steps Involving Android Studio
