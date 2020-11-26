@@ -30,7 +30,7 @@ def build_model(x, keep_prob, y_, output_node_name):
     
 ```
 
-2) Next important step is converting and saving your model into a single protobuf (.pb) file. This can be done by using tensorflow as a backend. After that optimise your model for an android device. Tutorial for this step: https://www.youtube.com/watch?v=kFWKdLOxykE
+2) Next important step is converting and saving your model into a single protobuf (.pb) file. This can be done by using tensorflow as a backend. After that optimise your model for an android device. Tutorial for this step: https://github.com/llSourcell/A_Guide_to_Running_Tensorflow_Models_on_Android
 
 ### B) Steps Involving Android Studio
 
